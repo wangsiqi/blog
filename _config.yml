@@ -1,8 +1,9 @@
 ## 网站设置
+log: 这是一个图片地址
 # 标题
 title: 你看那个人好像一条狗
 # 选项卡标题
-SEOTitle: 汪思奇的博客 | wangSiQi Blog
+SEOTitle: 汪思奇的博客 | WangSiQi Blog
 # 首页背景图片
 header-img: img/post-bg-debug.png
 # 邮箱设置
@@ -14,7 +15,7 @@ keyword: "Java,Spring MVC,Spring boot,Spring cloud,VUE,JQuery,HTML"
 # 博客访问链接
 url: "https://wangsiqi.github.io"
 # '/blog' if your blog hosted on 'host/blog'
-baseurl: ""
+baseurl: "https://wangsiqi.github.io"
 
 ## 侧边栏设置
 # 是否开启侧边栏 true 开始 false 关闭
