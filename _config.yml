@@ -1,6 +1,6 @@
 ## 网站设置
 # 标题
-title: 活一天 学一天
+title: 你看那个人好像一条狗 
 # 选项卡标题
 SEOTitle: 汪思奇的博客 | wangSiQi Blog
 # 首页背景图片
@@ -82,4 +82,3 @@ featured-condition-size: 0
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
