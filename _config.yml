@@ -1,6 +1,6 @@
 ## 网站设置
 # 标题
-title: 你看那个人好像一条狗 
+title: 你看那个人好像一条狗
 # 选项卡标题
 SEOTitle: 汪思奇的博客 | wangSiQi Blog
 # 首页背景图片
@@ -27,7 +27,7 @@ sidebar-avatar: /img/sidebar-avatar.jpg
 ## 社交网站设置
 RSS: false
 # GitHub个人页面 填写用户名
-github_username:wangsiqi
+github_username: wangsiqi
 
 ## 构建设置
 permalink: pretty
