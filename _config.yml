@@ -1,0 +1,85 @@
+## 网站设置
+# 标题
+title: 活一天 学一天
+# 选项卡标题
+SEOTitle: 汪思奇的博客 | wangSiQi Blog
+# 首页背景图片
+header-img: img/post-bg-debug.png
+# 邮箱设置
+email: wangsiqi9527@gmail.com
+# 网站介绍
+description: ""
+# 关键词
+keyword: "Java,Spring MVC,Spring boot,Spring cloud,VUE,JQuery,HTML"
+# 博客访问链接
+url: "https://wangsiqi.github.io"
+# '/blog' if your blog hosted on 'host/blog'
+baseurl: ""
+
+## 侧边栏设置
+# 是否开启侧边栏 true 开始 false 关闭
+sidebar: true
+# 侧边栏描述语句
+sidebar-about-description: "你看那个人好像一条狗"
+# 侧边栏头像
+sidebar-avatar: /img/sidebar-avatar.jpg
+
+## 社交网站设置
+RSS: false
+# GitHub个人页面 填写用户名
+github_username:wangsiqi
+
+## 构建设置
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true
+
+## Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+## Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+## Gitalk
+gitalk:
+  #是否开启Gitalk评论
+  enable: true
+  #生成的clientID
+  clientID: aa123f961fb2e2d94bc7
+  #生成的clientSecret
+  clientSecret: 040cbc8bb570183bd9aed8211d13c35b0f2468e1
+  #仓库名称
+  repo: blog.github.io
+  #github用户名
+  owner: wangsiqi
+  admin: wangsiqi
+  #是否启用类似FB的阴影遮罩
+  distractionFreeMode: true
+
+## 统计
+# Baidu Analytics
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+# 谷歌分析
+ga_track_id: 'UA-136858473-1'
+# 默认的是 auto 可以填写自己的域名
+ga_domain: auto
+
+## 标签设置
+# 是否使用首页标签
+featured-tags: true
+# 当重复标签达到设置数量时显示到首页
+featured-condition-size: 0
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
