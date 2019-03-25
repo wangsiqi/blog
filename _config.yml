@@ -57,7 +57,7 @@ gitalk:
   #生成的clientSecret
   clientSecret: 040cbc8bb570183bd9aed8211d13c35b0f2468e1
   #仓库名称
-  repo: blog.github.io
+  repo: wangsiqi.github.io
   #github用户名
   owner: wangsiqi
   admin: wangsiqi
